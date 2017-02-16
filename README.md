@@ -23,4 +23,4 @@ should scroll to fit the entire cell with unfolded menu.
 
 ## Read more
 
-[Link to the article in my blog](http://ribachenko.com/)
+[Link to the article in my blog](http://ribachenko.com/creating-dropdown-menu-like-in-tweetbot/)
