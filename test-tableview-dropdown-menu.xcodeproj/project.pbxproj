@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		EC1E8D631E52E8EC002251D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E8D621E52E8EC002251D7 /* AppDelegate.swift */; };
-		EC1E8D651E52E8EC002251D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E8D641E52E8EC002251D7 /* ViewController.swift */; };
 		EC1E8D681E52E8EC002251D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1E8D661E52E8EC002251D7 /* Main.storyboard */; };
 		EC1E8D6A1E52E8EC002251D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1E8D691E52E8EC002251D7 /* Assets.xcassets */; };
 		EC1E8D6D1E52E8EC002251D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1E8D6B1E52E8EC002251D7 /* LaunchScreen.storyboard */; };
+		EC1E8D751E52E956002251D7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E8D741E52E956002251D7 /* TableViewController.swift */; };
+		EC1E8D771E52EA74002251D7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1E8D761E52EA74002251D7 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EC1E8D5F1E52E8EC002251D7 /* test-tableview-dropdown-menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-tableview-dropdown-menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1E8D621E52E8EC002251D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC1E8D641E52E8EC002251D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC1E8D671E52E8EC002251D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC1E8D691E52E8EC002251D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC1E8D6C1E52E8EC002251D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC1E8D6E1E52E8EC002251D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1E8D741E52E956002251D7 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EC1E8D761E52EA74002251D7 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				EC1E8D621E52E8EC002251D7 /* AppDelegate.swift */,
-				EC1E8D641E52E8EC002251D7 /* ViewController.swift */,
+				EC1E8D741E52E956002251D7 /* TableViewController.swift */,
+				EC1E8D761E52EA74002251D7 /* TableViewCell.swift */,
 				EC1E8D661E52E8EC002251D7 /* Main.storyboard */,
 				EC1E8D691E52E8EC002251D7 /* Assets.xcassets */,
 				EC1E8D6B1E52E8EC002251D7 /* LaunchScreen.storyboard */,
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1E8D651E52E8EC002251D7 /* ViewController.swift in Sources */,
+				EC1E8D771E52EA74002251D7 /* TableViewCell.swift in Sources */,
 				EC1E8D631E52E8EC002251D7 /* AppDelegate.swift in Sources */,
+				EC1E8D751E52E956002251D7 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +304,7 @@
 				EC1E8D731E52E8EC002251D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
